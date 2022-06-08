@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mi Primer VUE</title>
 </head>
+
 <body>
     <section id="vue-seccion">
         <div id="app" class="container">
@@ -34,6 +35,27 @@
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
+                                <td>{{ usuario[0].nombre }}</td>
+                                <td>{{ usuario[0].apellido }}</td>
+                                <td>{{ usuario[0].RUN }}</td>
+                                <td>{{ usuario[0].nacimiento}}</td>
+                                <td>{{ usuario[0].edad}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>{{ usuario[1].nombre }}</td>
+                                <td>{{ usuario[1].apellido }}</td>
+                                <td>{{ usuario[1].RUN }}</td>
+                                <td>{{ usuario[1].nacimiento}}</td>
+                                <td>{{ usuario[1].edad}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>{{ usuario[2].nombre }}</td>
+                                <td>{{ usuario[2].apellido }}</td>
+                                <td>{{ usuario[2].RUN }}</td>
+                                <td>{{ usuario[2].nacimiento}}</td>
+                                <td>{{ usuario[2].edad}}</td>
                             </tr>
                         </tbody>
                     </table>
