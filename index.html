@@ -63,6 +63,46 @@
             </div>
         </div>
     </section>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
+    <!--Script personalizado-->
+    <script>
+        const app = new Vue({
+            el: "#app",
+            data: {
+                usuario: [
+                    {
+                        nombre: "Alfonsina M.",
+                        apellido: "Pacino",
+                        RUN: "15.256.783-3",
+                        nacimiento: "04-05-1988",
+                        edad: 34,
+                    },
+
+                    {
+                        nombre: "Mario",
+                        apellido: "Caro",
+                        RUN: "14.257.723-4",
+                        nacimiento: "07-09-1983",
+                        edad: 49,
+                    },
+
+                    {
+                        nombre: "Alejandro",
+                        apellido: "Mancilla",
+                        RUN: "14.340.899-1",
+                        nacimiento: "09-01-1990",
+                        edad: 32,
+                    }
+                ],
+                ruta: "assets/img/vueimage.png"
+            }
+        })
+    </script>
+</body>
 </html>
